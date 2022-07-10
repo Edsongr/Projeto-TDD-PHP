@@ -1,0 +1,19 @@
+{
+    "name": "edsongr/tdd",
+    "description": "Projeto TDD",
+    "type": "library",
+    "authors": [
+        {
+            "name": "Edson Oliveira",
+            "email": "edsongrdeveloper@gmail.com.br"
+        }
+    ],
+    "require": {
+        "phpunit/phpunit": "^9.5"
+    },
+    "autoload": {
+        "psr-4": {
+            "QueryBuilder\\":"src"
+        }
+    }
+}
